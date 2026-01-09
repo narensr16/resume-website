@@ -1,0 +1,95 @@
+/* ==============================
+   GLOBAL STYLES
+============================== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(120deg, #e0e7ff, #f8fafc);
+    margin: 0;
+    padding: 0;
+    color: #1f2937;
+}
+
+/* ==============================
+   MAIN CONTAINER
+============================== */
+.container {
+    max-width: 900px;
+    background-color: #ffffff;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* ==============================
+   HEADER TEXT
+============================== */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 5px;
+    color: #1e3a8a;
+}
+
+.title {
+    text-align: center;
+    font-size: 18px;
+    color: #475569;
+    margin-bottom: 30px;
+}
+
+/* ==============================
+   SECTION HEADINGS
+============================== */
+h2 {
+    color: #2563eb;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+/* ==============================
+   TEXT & LISTS
+============================== */
+p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* ==============================
+   PROJECT HIGHLIGHT
+============================== */
+ul li strong {
+    color: #1e40af;
+}
+
+/* ==============================
+   CONTACT SECTION
+============================== */
+h2:last-of-type {
+    margin-top: 40px;
+}
+
+/* ==============================
+   RESPONSIVE (MOBILE)
+============================== */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
