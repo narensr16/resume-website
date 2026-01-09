@@ -2,11 +2,11 @@
    GLOBAL
 ============================== */
 body {
-    font-family: "Poppins", "Segoe UI", Arial, sans-serif;
-    background: linear-gradient(135deg, #0f172a, #1e293b);
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(120deg, #e0e7ff, #f8fafc);
     margin: 0;
     padding: 0;
-    color: #e5e7eb;
+    color: #1f2937;
 }
 
 /* ==============================
@@ -14,11 +14,11 @@ body {
 ============================== */
 .container {
     max-width: 900px;
-    background-color: #020617;
+    background-color: #ffffff;
     margin: 60px auto;
-    padding: 45px;
+    padding: 40px;
     border-radius: 14px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
 }
 
 /* ==============================
@@ -28,38 +28,34 @@ h1 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 6px;
-    background: linear-gradient(90deg, #38bdf8, #22c55e);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #1e3a8a;
 }
 
 .title {
     text-align: center;
     font-size: 18px;
-    color: #94a3b8;
+    color: #475569;
     margin-bottom: 35px;
 }
 
 /* ==============================
-   SECTION BLOCKS
+   SECTION HEADINGS
 ============================== */
 h2 {
+    color: #2563eb;
     margin-top: 35px;
-    margin-bottom: 12px;
-    padding: 10px 15px;
-    background: linear-gradient(90deg, #1e293b, #020617);
-    border-left: 5px solid #38bdf8;
-    border-radius: 6px;
-    color: #7dd3fc;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #e5e7eb;
 }
 
 /* ==============================
    TEXT & LISTS
 ============================== */
 p {
-    line-height: 1.7;
     font-size: 16px;
-    color: #e5e7eb;
+    line-height: 1.7;
+    color: #334155;
 }
 
 ul {
@@ -67,14 +63,14 @@ ul {
 }
 
 li {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 /* ==============================
    PROJECT TITLES
 ============================== */
 li strong {
-    color: #22c55e;
+    color: #1e40af;
 }
 
 /* ==============================
@@ -83,7 +79,7 @@ li strong {
 @media (max-width: 600px) {
     .container {
         margin: 20px;
-        padding: 30px;
+        padding: 25px;
     }
 
     h1 {
